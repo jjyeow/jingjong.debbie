@@ -315,12 +315,12 @@ function App() {
                                 </div>
                                 <div className='page-4-content-1'>
                                     <div className={page4Visiblity ? 'fade-in-left-section-is-visible' : ''}>
-                                        <Button label={"BRIDE"} whatsappLink={"https://wa.me/127129271"}/>
+                                        <Button label={"BRIDE"} whatsappLink={"https://wa.me/60127129271"}/>
                                     </div>
                                 </div>
                                 <div className='page-4-content-2'>
                                     <div className={page4Visiblity ? 'fade-in-right-section-is-visible' : ''}>
-                                        <Button label={"GROOM"} whatsappLink={"https://wa.me/129281428"}/>
+                                        <Button label={"GROOM"} whatsappLink={"https://wa.me/60129281428"}/>
                                     </div>
                                 </div>
                                 <div className='page-4-content-3'>
