@@ -11,6 +11,7 @@ import { MdPlayArrow } from "react-icons/md";
 import Modal from './components/modal';
 import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { PiVinylRecordFill } from "react-icons/pi";
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 function App() {
     const [width, setWidth] = useState(undefined)
@@ -217,6 +218,11 @@ function App() {
                                 <div className='page-1-content-6'>
                                     <div className={page1Visiblity ? 'fade-in-right-section-is-visible' : 'hide'}>
                                         <div className="third-wording font-weight-bold white-space-no-wrap">G GLASSHOUSE @ KLANG</div>
+                                    </div>
+                                </div>
+                                <div className='scroll-down'>
+                                    <div className={page1Visiblity ? 'fade-in-left-section-is-visible' : 'hide'}>
+                                        <MdKeyboardDoubleArrowDown size={24} color="#4b1e21"/>
                                     </div>
                                 </div>
                             </div>
