@@ -68,32 +68,32 @@ function App() {
         };
     }, [audio]);
 
-    useEffect(() => {
-        if (page1Visiblity && !seenPage1) {
-            scrollToElement()
-        }
-    }, [page1Visiblity])
+    // useEffect(() => {
+    //     if (page1Visiblity && !seenPage1) {
+    //         scrollToElement()
+    //     }
+    // }, [page1Visiblity])
 
-    useEffect(() => {
-        if (page2Visiblity && !seenPage2) {
-            setSeenPage2(true)
-            scrollToElement2()
-        }
-    }, [page2Visiblity])
+    // useEffect(() => {
+    //     if (page2Visiblity && !seenPage2) {
+    //         setSeenPage2(true)
+    //         scrollToElement2()
+    //     }
+    // }, [page2Visiblity])
 
-    useEffect(() => {
-        if (page3Visiblity && !seenPage3) {
-            setSeenPage3(true)
-            scrollToElement3()
-        }
-    }, [page3Visiblity])
+    // useEffect(() => {
+    //     if (page3Visiblity && !seenPage3) {
+    //         setSeenPage3(true)
+    //         scrollToElement3()
+    //     }
+    // }, [page3Visiblity])
 
-    useEffect(() => {
-        if (page4Visiblity && !seenPage4) {
-            setSeenPage4(true)
-            scrollToElement4()
-        }
-    }, [page4Visiblity])
+    // useEffect(() => {
+    //     if (page4Visiblity && !seenPage4) {
+    //         setSeenPage4(true)
+    //         scrollToElement4()
+    //     }
+    // }, [page4Visiblity])
 
     const scrollToElement = () => {
         const {current} = divRef
@@ -331,7 +331,7 @@ function App() {
                                 </div>
                                 <div className='page-4-content-3'>
                                     <div className={page4Visiblity ? 'fade-in-bottom-section-is-visible' : ''}>
-                                        <div style={{whiteSpace: "nowrap", color: "black", fontWeight: "bold"}} className='third-wording'>-&nbsp;KINDLY RSVP BY 12th APRIL 2024&nbsp;-</div>
+                                        <div style={{whiteSpace: "nowrap", color: "black", fontWeight: "bold"}} className='third-wording'>-&nbsp;KINDLY RSVP BY 20th APRIL 2024&nbsp;-</div>
                                     </div>
                                 </div>
                             </div>
