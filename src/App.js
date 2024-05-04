@@ -331,7 +331,7 @@ function App() {
                                 </div>
                                 <div className='page-4-content-3'>
                                     <div className={page4Visiblity ? 'fade-in-bottom-section-is-visible' : ''}>
-                                        <div style={{whiteSpace: "nowrap", color: "black", fontWeight: "bold"}} className='third-wording'>-&nbsp;KINDLY RSVP BY 20th APRIL 2024&nbsp;-</div>
+                                        <div style={{whiteSpace: "nowrap", color: "black", fontWeight: "bold"}} className='third-wording'>-&nbsp;KINDLY RSVP BY 06th MAY 2024&nbsp;-</div>
                                     </div>
                                 </div>
                             </div>
